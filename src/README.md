@@ -1,23 +1,23 @@
-# Système de Réservation d’Hôtel en Java
+# Hotel Reservation System in Java
 
 ## Description
 
-Ce projet est une application Java simple permettant de gérer les réservations d’un hôtel.  
-Il permet de créer des réservations avec gestion des utilisateurs, types de chambres, dates d’arrivée et départ, et calcul du prix total.
+This project is a simple Java application that allows you to manage hotel room bookings.  
+It supports user creation, room types, check-in and check-out dates, and automatic price calculation.
 
-Le projet a été développé dans le cadre d’un test technique Java pour renforcer les compétences en POO, gestion des dates et utilisation d’énumérations.
+The project was developed as part of a Java technical test to practice object-oriented programming (OOP), date handling, and the use of enumerations.
 
-## Fonctionnalités
+## Features
 
-- Création de réservations avec :
-    - Identification de l’utilisateur
-    - Choix du type de chambre (STANDARD, JUNIOR, SUITE)
-    - Gestion des dates d’arrivée et de départ
-    - Calcul automatique du prix total
-- Gestion des types de chambres avec énumération
-- Validation des dates (exemple : la date de départ doit être après la date d’arrivée)
-- Commentaires dans le code pour faciliter la compréhension
-- Utilisation de la classe `LocalDate` pour la gestion des dates
+- Booking creation with:
+  - User identification
+  - Room type selection (STANDARD, JUNIOR, SUITE)
+  - Management of check-in and check-out dates
+  - Automatic total price calculation
+  - Room types handled using an enumeration (`enum`)
+  - Date validation (e.g., check-out must be after check-in)
+  - Code is commented to improve readability and understanding
+  - Use of the `LocalDate` class for date management
 
 
 ## Design Questions (Bonus)
